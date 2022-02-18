@@ -1,8 +1,8 @@
 import processing.core.PApplet;
 
 /**
- * Main class to execute sketch
- * @author 
+ * Main class to execute sketch of a house
+ * @author: Brady So 
  *
  */
 class Main {
