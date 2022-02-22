@@ -1,8 +1,12 @@
 import processing.core.PApplet;
 
 public class Sketch extends PApplet {
-	
-	
+	/**
+  * Description: A program that draws a house with clouds,   
+  * windows and trees.
+  * Author: Brady So
+  */
+  
   /**
    * Called once at the beginning of execution, put your size all in this method
    */
@@ -22,6 +26,7 @@ public class Sketch extends PApplet {
    * Called repeatedly, anything drawn to the screen goes here
    */
   public void draw() {
+   
     // Drawing clouds as background (circles)
     fill(255, 255, 255);
     ellipse(35, 25, 200, 50);
@@ -30,7 +35,7 @@ public class Sketch extends PApplet {
     ellipse(490, 25, 200, 50);
 
     // Drawing the house (square)
-    fill(153,0,0);
+    fill(153, 0, 0);
     rect(170, 135, 220, 200);
 
     // Drawing the door (rectangle)
@@ -57,7 +62,6 @@ public class Sketch extends PApplet {
     rect(25, 100, 50, 180);
     fill(0, 153, 0);
     ellipse(50, 100, 90, 50);
-
     fill(51, 0 ,0);
     rect(485, 100, 50, 180);
     fill(0, 153, 0);
